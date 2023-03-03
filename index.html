@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  	
+<link rel="stylesheet" href="/css/twentytwenty.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/jquery.twentytwenty.js"></script>
+  <script src="/js/jquery.twentytwenty.js"></script>
+  
+  <script>
+    $(function () {
+      $(".before-after").twentytwenty({
+        move_slider_on_hover: true,
+      });
+    });
+  </script>
+  <title>Слайдер «было—стало»</title>
+</head>
+<body>
+    <div class="before-after">
+ 
+        <!-- Картинка  "до" -->
+        <img class="before-after__item" src="img/last.jpg" />
+       
+        <!-- Картинка  "после" -->
+        <img class="before-after__item" src="img/now.jpg" />
+         
+      </div>
+  <!-- подключаем наш скрипт -->
+  <script src="js/script.js"> </script> 
+</body>
+</html>
